@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Amatic+SC:wght@400;700&family=Arima:wght@100..700&family=Chewy&family=Concert+One&family=Danfo&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-weight: 100;
+    user-select: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: none;
+    background:linear-gradient(to bottom right, #2f2f2f, #0f0f0f);
+    min-width: 18vw;
+    aspect-ratio: 1/1.4;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px rgb(85, 83, 83);
+}
+
+input {
+    border: none;
+    width: 100%;
+    height: 20%;
+    border-radius: 12px;
+    text-align: right;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 5px;
+    background-color: rgba(99, 104, 104, 0.687);
+    color: rgb(253, 252, 252);
+    box-shadow: inset 2px 3px  4px black;
+}
+
+input::placeholder {
+    color:white;
+    border:none;
+}
+
+.btns button {
+    margin: 20px;
+    width: 3.6rem;
+    aspect-ratio: 1;
+}
+
+.btns div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 2vw;
+    font-family: "Alumni Sans Pinstripe", serif;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+    background-color: #030303b0;
+    color: white;
+    box-shadow: -3px -3px 4px #050505c5;
+    opacity: .8;
+}
+
+div button:last-child {
+    color: rgb(82, 255, 47);
+}
+
+#first button {
+    color: rgb(82, 255, 47);
+}
+
+#first button:first-child {
+    background-color: orangered;
+    color: white;
+    box-shadow: -1px -3px 7px #060606c7;
+}
+
+button:hover{
+    background-color:#03030354;
+}
+
+
+button:active {
+    transform: scale(.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    opacity: .9;
+}
